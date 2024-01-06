@@ -16,7 +16,7 @@ const About = () => {
     ]
 
     const tools = [
-        "Android Studios", "Postman", "Amazon EC2", "Jenkin", "Bitbucket", "GCFR", "Teradata"
+        "Android Studios", "Postman", "Amazon EC2", "Jenkin", "Bitbucket", "GCFR", "Teradata", "Git/Github"
     ]
 
     return (

@@ -1,7 +1,7 @@
 /* Add this to your existing CSS or create a new CSS file */
 
 body {
-    background-color: #000000;
+    background-color: #08071d;
     margin: 0;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -12,7 +12,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
     text-align: center;
 }
 
