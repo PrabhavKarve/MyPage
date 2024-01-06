@@ -216,4 +216,18 @@ body {
       width: 100%; /* At the end, the width is 100%, revealing all characters */
     }
   }
+
+  @media (max-width: 768px) {
+    .profile-container {
+      display:list-item;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    .stick_follow_icon a svg {
+      padding-top:20px;
+      height: 15px; /* Adjust the height as needed */
+      width: 15px;  /* Adjust the width as needed */
+    }
+    }
+  }
   

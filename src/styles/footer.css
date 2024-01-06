@@ -9,3 +9,32 @@ p{
     margin: 0;
     font-weight:650;
 }
+
+@media (max-width: 768px) {
+    .social-icons {
+      flex-direction: column;
+    }
+  
+    .icon {
+      margin: 10px 0;
+    }
+  }
+  
+  /* Sticky footer styles */
+  
+  html, body {
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main {
+    flex: 1;
+  }
+  
+  footer {
+    margin-top: auto;
+  }
