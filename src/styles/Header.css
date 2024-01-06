@@ -1,7 +1,6 @@
 /* Add this styling to your existing CSS or create a new CSS file */
 
 body {
-    background-color: #ffffff;
     margin: 0;
   }
 
@@ -33,20 +32,17 @@ body {
 }
   
   header {
-    z-index: 1000;
     font-weight: lighter;
     display: flex;
     align-items: center;
-    justify-content: center;
-    transition: background-color 0.3s ease; 
     height: 10px;
     position: fixed;
     width: 100%;
   }
 
 .maindiv{
-  background-color: #010525;
-  height: 700px;
+  background-color: #060517;
+  margin: none;
 }
   
 .header-content {
@@ -102,7 +98,8 @@ body {
     background-color: #060517;
     color: white;
     padding-bottom:200px;
-    padding: 150px;
+    padding-top:150px;
+    width: 100%;
   }
   
   #profile {
@@ -149,9 +146,8 @@ body {
   font-weight: lighter;
   }
 
-  nav a {
+  nav button {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #fff;
     text-decoration: none;
     margin: 5px 17px;
     font-size: 30px;
@@ -161,18 +157,20 @@ body {
     z-index: 1000;
     border-bottom: 2px solid transparent; /* Initial border color, you can set it to transparent */
     transition: color 0.3s, transform 0.3s, border-color 0.3s;
+    background-color: #323232;
+    color: antiquewhite ;
   }
 
-  nav a:not(:hover) {
+  nav button:not(:hover) {
     border-color: transparent; /* Set the default border color when not hovered */
 }
   
-  nav a::before {
+  nav button::before {
     content: '';
     position: absolute;
     width: 100%;
     height: 2px;
-    background-color: #fff;
+    background-color: 255, 255, 255, 0.1;
     bottom: 0;
     left: 0;
     transform: scaleX(0);
@@ -181,14 +179,14 @@ body {
     font-weight: lighter;
   }
   
-  nav a:hover {
+  nav button:hover {
     color: #cd0000; /* Change the text color on hover */
     background-color: rgba(255, 255, 255, 0.1); /* Change the background color on hover */
     transition: transform 0.5s;
     border-color: #cd0000; 
   }
   
-  nav a:hover::before {
+  nav button:hover::before {
     transform: scaleX(1);
     transform-origin: bottom left;
     font-weight: lighter;
