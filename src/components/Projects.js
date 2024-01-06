@@ -15,7 +15,7 @@ const Projects = () => {
               <h3>Logistics & warehouse payment-invoice management system</h3>
               <p>A logistics-based warehouse management system at PSIT Solutions.
                 Enabled with CRUD operations, the system maintains queue-based payment invoice management in minutes .</p>
-              <a class="btn" href="#" target="_blank" rel="noopener noreferrer">View Project</a>
+              <a class="btn" href="https://github.com/PrabhavKarve" target="_blank" rel="noopener noreferrer">View Project</a>
               </div>
           </div>
 
